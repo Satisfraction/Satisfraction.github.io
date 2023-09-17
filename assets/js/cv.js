@@ -68,7 +68,7 @@ var ctx = document.getElementById('skillsChart').getContext('2d');
         },
         title: {
             display: true,
-            text: "Fähigkeiten und Kenntnisse",
+            text: "Fähigkeiten und Kenntnisse in %",
         },
         },
     },
@@ -144,7 +144,7 @@ var ctx = document.getElementById('skillsChart2').getContext('2d');
         },
         title: {
             display: true,
-            text: "Skills and Knowledge",
+            text: "Skills and Knowledge in % ",
         },
         },
     },
