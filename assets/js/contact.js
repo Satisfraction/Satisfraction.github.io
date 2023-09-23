@@ -25,7 +25,7 @@ document.getElementById("contactForm1").addEventListener("submit", function (eve
         "Message: " + message;
 
     // Sendet die E-Mail
-    var emailAddress = btoa("MY_EMAIL");
+    var emailAddress = "MY_EMAIL";
     var mailtoLink = "mailto:" + emailAddress + "?subject=" + encodeURIComponent(subject) + "&body=" + encodeURIComponent(emailBody);
     window.open(mailtoLink);
 });
@@ -54,7 +54,7 @@ document.getElementById("contactForm2").addEventListener("submit", function (eve
         "Position: " + position;
 
     // Sendet die E-Mail
-    var emailAddress = btoa("MY_EMAIL");
+    var emailAddress = "MY_EMAIL";
     var mailtoLink = "mailto:" + emailAddress + "?position=" + encodeURIComponent(position) + "&body=" + encodeURIComponent(emailBody);
     window.open(mailtoLink);
 });
