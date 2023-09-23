@@ -1,7 +1,7 @@
 // ----------------------- //
 // Für das Kontaktformular //
 // ----------------------- //
-document.getElementById("contactForm").addEventListener("submit", function (event) {
+document.getElementById("contactForm1").addEventListener("submit", function (event) {
     event.preventDefault();
 
     // Get the form values
@@ -33,8 +33,8 @@ document.getElementById("contactForm").addEventListener("submit", function (even
 // ------------------------ //
 // Für das CV-info Formular //
 // ------------------------ //
-document.getElementById("contactForm").addEventListener("submit", function (event) {
-    event.preventDefault(); // Verhindert das automatische Absenden des Formulars
+document.getElementById("contactForm2").addEventListener("submit", function (event) {
+    event.preventDefault();
 
     // Überprüfung, ob alle Felder ausgefüllt sind
     var name = document.getElementById("name").value;
@@ -57,5 +57,4 @@ document.getElementById("contactForm").addEventListener("submit", function (even
     var emailAddress = btoa("MY_EMAIL");
     var mailtoLink = "mailto:" + emailAddress + "?position=" + encodeURIComponent(position) + "&body=" + encodeURIComponent(emailBody);
     window.open(mailtoLink);
-
 });
