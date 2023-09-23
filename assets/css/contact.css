@@ -74,7 +74,7 @@ li {
 }
 
 /* Style for the contact form container */
-.contact-form2 {
+.contact-form {
     grid-column: 1;
     background-color: rgba(50, 179, 159, 0.581);
     border-radius: 5px;
