@@ -10,6 +10,7 @@ document.getElementById("contactForm1").addEventListener("submit", function (eve
     var email = document.getElementById("email").value;
     var subject = document.getElementById("subject").value;
     var message = document.getElementById("message").value;
+    var meine_email = "mathiaslappe@gmail.com";
 
     // Überprüfung, ob alle Felder ausgefüllt sind
     if (firstName === "" || lastName === "" || email === "" || subject === "") {
@@ -25,10 +26,11 @@ document.getElementById("contactForm1").addEventListener("submit", function (eve
         "Message: " + message;
 
     // Sendet die E-Mail
-    var emailAddress = "MY_EMAIL";
-    var mailtoLink = "mailto:" + emailAddress + "?subject=" + encodeURIComponent(subject) + "&body=" + encodeURIComponent(emailBody);
+    var emailAddress = meine_email;
+    var mailtoLink = "mailto:" + emailAddress + "?position=" + encodeURIComponent(position) + "&body=" + encodeURIComponent(emailBody);
     window.open(mailtoLink);
 });
+
 
 // ------------------------ //
 // Für das CV-info Formular //
@@ -41,7 +43,7 @@ document.getElementById("contactForm2").addEventListener("submit", function (eve
     var email = document.getElementById("mail").value;
     var company = document.getElementById("company").value;
     var position = document.getElementById("position").value;
-    var meine_email = MY_EMAIL;
+    var meine_email = "mathiaslappe@gmail.com";
 
     if (name === "" || email === "" || company === "" || position === "") {
         alert("Bitte füllen Sie alle Pflichtfelder aus.");
