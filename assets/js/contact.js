@@ -54,7 +54,7 @@ document.getElementById("contactForm2").addEventListener("submit", function (eve
         "Position: " + position;
 
     // Sendet die E-Mail
-    var emailAddress = "MY_EMAIL";
+    var emailAddress = process.env.MY_EMAIL;
     var mailtoLink = "mailto:" + emailAddress + "?position=" + encodeURIComponent(position) + "&body=" + encodeURIComponent(emailBody);
     window.open(mailtoLink);
 });
