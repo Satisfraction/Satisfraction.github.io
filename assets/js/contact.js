@@ -41,6 +41,7 @@ document.getElementById("contactForm2").addEventListener("submit", function (eve
     var email = document.getElementById("mail").value;
     var company = document.getElementById("company").value;
     var position = document.getElementById("position").value;
+    var meine_email = MY_EMAIL;
 
     if (name === "" || email === "" || company === "" || position === "") {
         alert("Bitte füllen Sie alle Pflichtfelder aus.");
@@ -54,7 +55,7 @@ document.getElementById("contactForm2").addEventListener("submit", function (eve
         "Position: " + position;
 
     // Sendet die E-Mail
-    var emailAddress = MY_EMAIL;
+    var emailAddress = meine_email;
     var mailtoLink = "mailto:" + emailAddress + "?position=" + encodeURIComponent(position) + "&body=" + encodeURIComponent(emailBody);
     window.open(mailtoLink);
 });
