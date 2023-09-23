@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="utf-8">
+    <title>Homepage - Satisfraction - MaLa</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="../assets/css/contact.css">
+</head>
+
+<body>
+
+    <section class="title-container">
+        <img src="../assets/img/logo.png" alt="" class="logo">
+        <h1 class="title">Willkommen auf meiner Kontakt Seite / Welcome to my contact page</h1>
+        <p class="subtitle">hier finden Sie eine Übersicht über meine Kontaktmöglichkeiten / Here you will find an
+            overview of my contact options</p>
+        <img src="../assets/img/profile.png" alt="profile-pic" class="profile-pic">
+        <hr>
+    </section>
+
+    <div class="grid-container">
+        <div class="contact-form">
+            <h2>Kontaktformular</h2>
+            <form id="contactForm" enctype="multipart/form-data">
+                <div class="form-group">
+                    <label for="firstName">Vorname:</label>
+                    <input type="text" id="firstName" placeholder="Max" required>
+                </div>
+                <div class="form-group">
+                    <label for="lastName">Nachname:</label>
+                    <input type="text" id="lastName" placeholder="Mustermann" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">E-Mail-Adresse:</label>
+                    <input type="email" id="email" placeholder="max.mustermann@email.com" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Telefonnummer:</label>
+                    <input type="tel" id="phone" placeholder="+49 123 456 789">
+                </div>
+                <div class="form-group">
+                    <label for="subject">Betreff:</label>
+                    <input type="text" id="subject" placeholder="z.B. Anfrage" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Individuelle Nachricht:</label>
+                    <textarea id="message" placeholder="z.B. Anfrage beschreiben" required></textarea>
+                </div>
+                <div class="form-group">
+                    <button type="submit">Absenden</button>
+                </div>
+            </form>
+        </div>
+
+        <div>
+            <div class="cv-info">
+                <h2>Kontaktformular für CV</h2>
+                <form id="contactForm" enctype="multipart/form-data">
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" placeholder="Max Mustermann" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">E-Mail:</label>
+                        <input type="email" id="mail" placeholder="max.mustermann@email.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="company">Firma:</label>
+                        <input type="text" id="company" placeholder="Musterfirma" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="position">Zu vergebene Position:</label>
+                        <input type="text" id="position" placeholder="Musterposition" required>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit">CV erbitten</button>
+                    </div>
+                </form>
+            </div>
+
+            <div class="my-sites">
+                <h2>Meine Links</h2>
+                <ul class="links">
+                    <li><a href="https://github.com/Satisfraction" target="_blank"><i class="fab fa-github"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/mathias-lappe/"><i class="fab fa-linkedin"></i></a></li>
+                    <li><a href="https://www.xing.com/profile/Mathias_Lappe/cv"><i class="fab fa-xing"></i></a></li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="../assets/js/contact.js"></script>
+
+    <footer>
+        <nav>
+            <ul>
+                <li><a class="website" href="../index.html">Homepage</a></li>
+                <li><a class="website" href="aboutme.html">About me</a></li>
+                <li><a class="website" href="certificates.html">Certificates</a></li>
+                <li><a class="website" href="cv.html">Resume</a></li>
+                <li><a class="website" href="showcase.html">Showcase</a></li>
+                <li><a class="website" href="projects.html">Projects</a></li>
+                <li><a class="website" href="#">Contact</a></li>
+            </ul>
+        </nav>
+
+        <div class="container">
+            <p> Made with ❤️ © 2023 Satisfraction.</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
