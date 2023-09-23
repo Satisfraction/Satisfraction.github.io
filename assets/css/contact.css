@@ -1,0 +1,192 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image: url("../img/background.jpeg");
+}
+
+p {
+    font-size: 1.2em;
+}
+
+nav {
+    background-color: #f2f2f2;
+    padding: 1px;
+    border-radius: 5px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    margin: 0 10px;
+}
+
+.website {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.website:hover {
+    color: #fff;
+    background-color: #666;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.title-container {
+    text-align: center;
+    padding: 5px;
+    box-shadow: 0 0 25px rgba(44, 42, 42, 0.911);
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.87);
+    color: #fff;
+}
+
+.title-container .logo {
+    float: left;
+    width: 8em;
+    height: 8em;
+
+}
+
+.title-container .profile-pic {
+    position: absolute;
+    top: .7em;
+    right: .8em;
+    width: 8em;
+    height: 8em;
+}
+
+.title {
+    font-size: 2em;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2em;
+    margin: 2em;
+}
+
+/* Style for the contact form container */
+.contact-form {
+    grid-column: 1;
+    background-color: rgba(50, 179, 159, 0.581);
+    border-radius: 5px;
+    padding: 2em;
+    height: 36em;
+}
+
+/* Style for the cv-info container */
+.cv-info {
+    grid-column: 2;
+    height: 25em;
+    background-color: rgba(50, 179, 159, 0.581);
+    border-radius: 5px;
+    padding: 1em;
+    margin: 1em;
+}
+
+/* Style for the my-sites container */
+.my-sites {
+    grid-column: 2;
+    background-color: rgba(50, 179, 159, 0.581);
+    border-radius: 5px;
+    padding: 1em;
+    margin: 2em;
+    height: 8em;
+}
+
+.my-sites a {
+    color: #333;
+    margin: 1em;
+}
+
+.links {
+    list-style-position: inside;
+    list-style-type: none;
+    text-align: center;
+}
+
+.links li {
+    margin: 1em;
+    background-color: #41c546;
+    padding: 1em;
+    border-radius: 5px;
+}
+
+.links li:hover {
+    background-color: #45a049;
+    padding: 1em;
+}
+
+
+/* Style for the form heading */
+h2 {
+    text-align: center;
+    color: #333;
+    text-decoration: underline;
+}
+
+/* Style for the form fields */
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    color: #333;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+textarea {
+    height: 100px;
+}
+
+
+button[type="submit"] {
+    background-color: #36a33a;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
+
+button[type="submit"]:hover {
+    background-color: #2c642f;
+}
+
+/* Style for error messages */
+.error-message {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.87);
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+}
