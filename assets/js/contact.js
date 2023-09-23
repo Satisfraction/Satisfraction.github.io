@@ -41,7 +41,7 @@ document.getElementById("contactForm2").addEventListener("submit", function (eve
     var email = document.getElementById("mail").value;
     var company = document.getElementById("company").value;
     var position = document.getElementById("position").value;
-    var meine_email = MY_EMAIL;
+    var meine_email = process.env.MY_EMAIL;
 
     if (name === "" || email === "" || company === "" || position === "") {
         alert("Bitte füllen Sie alle Pflichtfelder aus.");
