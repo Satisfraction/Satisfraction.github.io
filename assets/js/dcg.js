@@ -326,18 +326,5 @@ exitLearnModeButton.addEventListener("click", () => {
     resetSettingsAndExitLearningMode();
 });
 
-// Add event listener to "Apply Settings" button
-applySettingsButton.addEventListener("click", () => {
-    const newDuration = parseInt(durationInput.value);
-    const newMaxWrong = parseInt(maxWrongInput.value);
-
-    if (!isNaN(newDuration) && !isNaN(newMaxWrong)) {
-        setGameSettings(newDuration, newMaxWrong);
-        alert("Settings applied successfully!");
-    } else {
-        alert("Invalid input. Please enter numbers for duration and max wrong answers.");
-    }
-});
-
 // Initialize high score display
 showHighScore();
