@@ -59,8 +59,8 @@ a:hover {
 
 .title-container .logo {
     float: left;
-    width: 8em;
-    height: 8em;
+    width: 6.5em;
+    height: 6.5em;
 
 }
 
@@ -68,8 +68,8 @@ a:hover {
     position: absolute;
     top: .7em;
     right: .8em;
-    width: 8em;
-    height: 8em;
+    width: 7em;
+    height: 7em;
 }
 
 .flex-container {

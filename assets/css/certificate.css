@@ -11,16 +11,6 @@ h2 {
 
 p {
     font-size: 1.2em;
-    color: #cccccc;
-    background-image: linear-gradient(#cccccc, #cccccc);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    transition: background-size 1000ms, color 700ms;
-}
-
-p:hover {
-    color: #333;
-    background-size: 0% 200%;
 }
 
 nav {

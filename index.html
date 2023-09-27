@@ -11,11 +11,15 @@
 <body>
 
     <section class="title-container">
-        <img src="assets/img/logo.png" alt="" class="logo">
+        <a href="index.html">
+            <img src="assets/img/logo.png" alt="" class="logo">
+        </a>
         <h1 class="title">Willkommen auf meiner Homepage / Welcome to my homepage</h1>
         <p class="subtitle">Weitere Informationen finden Sie auf den folgenden Websites / For more information, please
             visit the following websites</p>
-        <img src="assets/img/profile.png" alt="profile-pic" class="profile-pic">
+        <a href="templates/aboutme.html">
+            <img src="assets/img/profile.png" alt="profile-pic" class="profile-pic">
+        </a>
         <hr>
     </section>
 
@@ -56,12 +60,14 @@
             <div class="website">
                 <div class="left">
                     <h2>Lebenslauf</h2>
-                    <p lang="de">Hier gibt's meinen Lebenslauf und meine Skills in DevOps, Cloud Computing und Web Development.</p>
+                    <p lang="de">Hier gibt's meinen Lebenslauf und meine Skills in DevOps, Cloud Computing und Web
+                        Development.</p>
                 </div>
                 <div class="right">
                     <h2>Resume</h2>
-                    <p lang="en">Check out my CV and skills in DevOps, Cloud Computing, and Web Development right here.</p>
-                </div>                
+                    <p lang="en">Check out my CV and skills in DevOps, Cloud Computing, and Web Development right here.
+                    </p>
+                </div>
                 <div class="center">
                     <a class="button" href="templates/cv.html">Visit Website</a>
                 </div>
@@ -74,45 +80,46 @@
             <!-- Website 4 -->
             <div class="website">
                 <div class="left">
-                    <h2>Showcase</h2>
-                    <p lang="de">Hier finden Sie meine aktuellen Projekte im Showcase.</p>
-                </div>
-                <div class="right">
-                    <h2>Showcase</h2>
-                    <p lang="en">Here you can find my current projects in the showcase.</p>
-                </div>
-                <div class="center">
-                    <a class="button" href="templates/showcase.html">Visit Website</a>
-                </div>
-            </div>
-
-            <!-- Website 5 -->
-            <div class="website">
-                <div class="left">
                     <h2>Projekte</h2>
-                    <p lang="de">Hier finden Sie eine Übersicht über weitere Projekte.</p>
+                    <p lang="de">Hier finden Sie eine Übersicht meine Projekte.</p>
                 </div>
                 <div class="right">
                     <h2>Projects</h2>
-                    <p lang="en">Here you can find an overview of other projects.</p>
+                    <p lang="en">Here you can find an overview of my projects.</p>
                 </div>
                 <div class="center">
                     <a class="button" href="templates/projects.html">Visit Website</a>
                 </div>
             </div>
 
-            <!-- Website 6 -->
+
+            <!-- Website 5 -->
             <div class="website">
                 <div class="left">
                     <h2>Kontakt</h2>
-                    <p lang="de">Auf dieser Seite finden Sie meine Kontaktdaten und Kontaktmöglichkeiten.</p>
+                    <p lang="de">Hier Sie meine Kontaktmöglichkeiten.</p>
                 </div>
                 <div class="right">
                     <h2>Contact</h2>
-                    <p lang="en">On this page you will find my contact data and contact options.</p>
+                    <p lang="en">Here you will find my contact options.</p>
                 </div>
                 <div class="center">
                     <a class="button" href="templates/contact.html">Visit Website</a>
+                </div>
+            </div>
+
+            <!-- Website 6 -->
+            <div class="website">
+                <div class="left">
+                    <h2>Docker Command Game</h2>
+                    <p lang="de">Hier finden Sie ein kleines Spiel zum erlenen von Docker Commands.</p>
+                </div>
+                <div class="right">
+                    <h2>Docker Command Game</h2>
+                    <p lang="en">Here you will find a little game to learn Docker Commands.</p>
+                </div>
+                <div class="center">
+                    <a class="button" href="templates/dcg.html">Visit Website</a>
                 </div>
             </div>
 
@@ -126,14 +133,14 @@
                 <li><a href="templates/aboutme.html">About me</a></li>
                 <li><a href="templates/certificates.html">Certificates</a></li>
                 <li><a href="templates/cv.html">Resume</a></li>
-                <li><a href="templates/showcase.html">Showcase</a></li>
                 <li><a href="templates/projects.html">Projects</a></li>
                 <li><a href="templates/contact.html">Contact</a></li>
+                <li><a href="templates/dcg.html">Docker-Command-Game</a></li>
             </ul>
         </nav>
 
         <div class="container">
-            <p> Made with ❤️ © 2023 Satisfraction.</p>
+            <p class="credits">Made with ❤️ © 2023 Satisfraction.</p>
             <p>Visits: <span id="visitCount">0</span></p>
         </div>
     </footer>
